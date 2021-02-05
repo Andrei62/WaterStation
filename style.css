@@ -1,0 +1,233 @@
+* {
+  padding: 0;
+  margin: 0%;
+  background-color: rgb(255, 224, 213);
+  font-size: 1.1em;
+}
+
+a:hover {
+  text-decoration: none;
+}
+a {
+  color: rgb(42, 56, 255);
+}
+
+.mainBlock {
+  width: 60%;
+  height: 600px;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  margin-left: 20%;
+  margin-top: 50px;
+  border-radius: 10px;
+  border: 2px solid rgb(255, 255, 255);
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1);
+}
+
+.mainBlock .span1 {
+  background-color: white;
+  float: left;
+  text-align: center;
+  position: relative;
+  margin-top: 40px;
+  padding: 10px 10px 10px 10px;
+  color: rgb(90, 89, 89);
+  font-size: 1em;
+}
+
+.mainBlock .article1 {
+  width: 37%;
+  height: 311px;
+  background-color: white;
+  position: relative;
+  margin-top: 170px;
+  line-height: 160%;
+  margin-left: 10%;
+}
+
+.mainBlock .article1 h1 {
+  background-color: white;
+  text-align: center;
+  font-weight: bold;
+  font-style: inherit;
+}
+
+.mainBlock .article1 img {
+  position: relative;
+  margin-left: 19%;
+}
+
+/*Styles for article 2*/
+
+.mainBlock .article2 {
+  width: 45%;
+  height: 311px;
+  background-color: white;
+  position: relative;
+  margin-top: -310px;
+  line-height: 160%;
+  margin-left: 53%;
+  float: left;
+}
+
+.article2 a {
+  text-decoration: none;
+}
+
+.article2 #Underline1 {
+  border-bottom: 1.5px solid blue;
+  display: inline-block;
+  line-height: 0.9;
+  position: relative;
+  margin-left: 86px;
+  margin-top: 15px;
+  font-size: 0.8em;
+}
+
+.article2 #Underline1:hover {
+  border-bottom: 1.5px solid white;
+}
+
+.mainBlock .article2 h1 {
+  background-color: white;
+  font-weight: bold;
+  float: none;
+  text-align: center;
+}
+
+.mainBlock .article2 img {
+  position: relative;
+  margin-left: 19%;
+  float: left;
+}
+
+.mainBlock .article2 button {
+  text-align: center;
+  width: 326px;
+  border: 1px solid silver;
+  border-radius: 30px;
+  height: 50px;
+  background-color: lightseagreen;
+  color: white;
+  position: relative;
+  margin-left: 12%;
+  margin-top: 5px;
+  float: left;
+  cursor: pointer;
+  transition-duration: 200ms;
+}
+
+.mainBlock .article2 button:hover {
+  background-color: yellowgreen;
+}
+
+.mainBlock .article2 button:active {
+  background-color: red;
+}
+
+.mainBlock .article2 #QuestionIMG {
+  float: left;
+  position: absolute;
+  top: 104px;
+  left: -30px;
+}
+
+.mainBlock .article2 a {
+  text-align: center;
+  font-size: 0.9em;
+  position: relative;
+  float: left;
+  margin-left: 10px;
+  margin-top: 10px;
+  background-color: white;
+}
+
+.mainBlock .article2 a:hover {
+  text-decoration: none;
+}
+
+#QuestionIMG2 {
+  position: absolute;
+  float: left;
+  top: 140px;
+  left: 30px;
+}
+
+#link2 {
+  text-decoration: none;
+  position: relative;
+  margin-top: 5px;
+  border-bottom: 1.5px solid blue;
+  display: inline-block;
+  line-height: 1.1;
+  font-size: 0.8em;
+  margin-top: 16px;
+  margin-left: 145px;
+}
+
+#link2:hover {
+  border-bottom: 1.5px solid white;
+}
+
+#QuestionIMG3 {
+  position: absolute;
+  float: left;
+  top: 176px;
+  left: 13px;
+}
+
+#link3 {
+  position: relative;
+  margin-left: 110px;
+  margin-top: 1px;
+  text-decoration: none;
+  font-size: 0.8em;
+  margin-left: 127px;
+  margin-top: 15px;
+  border-bottom: 1.5px solid blue;
+  display: inline-block;
+  line-height: 1.1;
+}
+
+#link3:hover {
+  border-bottom: 1.5px solid white;
+}
+
+#QuestionIMG,
+#QuestionIMG2,
+#QuestionIMG3 {
+  background-color: white;
+}
+
+#spanDiv {
+  position: relative;
+  float: left;
+  font-size: 0.8em;
+  margin-left: 140px;
+  margin-top: 20px;
+  background-color: white;
+  color: rgb(104, 104, 104);
+}
+
+.H1footer {
+  background-color: white;
+  text-align: center;
+  margin-top: 15px;
+  color: rgb(90, 89, 89);
+}
+
+.span2 {
+  background-color: white;
+  float: left;
+  text-align: center;
+  position: relative;
+  margin-top: 10px;
+  padding: 10px 10px 10px 10px;
+  color: rgb(90, 89, 89);
+  font-size: 0.9em;
+}
+
+.span2 a {
+  font-size: 1em;
+  background-color: white;
+}
